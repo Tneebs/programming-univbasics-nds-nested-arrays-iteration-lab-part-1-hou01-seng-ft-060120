@@ -2,14 +2,14 @@ def find_even_values(src)
 row = 0
 
 while row < src.count do
-  inner_count = 0
-  while inner_count < src[row].count do
-    if src[row][inner_count].even?
-      p src[row][inner_count]
+  collumn = 0
+  while collumn < src[row].count do
+    if src[row][collumn].even?
+      p src[row][collumn]
     end
-    inner_count += 1
+    collumn += 1
    end
-  count += 1 
+  row += 1 
  end
 end
 
